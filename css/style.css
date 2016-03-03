@@ -1,0 +1,107 @@
+@import "fonts.css";
+
+/* Structure
+----------------------------------------------- */
+html{
+height:100%;
+font-size:10px;
+}
+body{
+height:100%;
+min-height:100%;
+font: normal 1em/120% Arial, san-serif;
+font: normal 1rem/120% Arial, san-serif;
+text-align:center; 
+}
+
+#container{
+margin:0 auto;  
+text-align:left; 
+min-height:100%;
+min-width:550px;  
+}
+
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+a:link{
+
+}
+a:visited{
+
+}
+a:hover{
+
+}
+a:active{
+
+}
+/* Header
+----------------------------------------------- */
+#header{
+background-color:#63b9da;
+}
+
+/* left
+----------------------------------------------- */
+#left{
+background-color:#a9d28c;
+width:150px;  
+float:left;  
+font-size: 0.94em;
+}
+/* right
+----------------------------------------------- */
+#right{
+width:100px;
+background-color:#a9d28c;
+float:right; 
+}
+/*Content
+----------------------------------------------- */
+#content{
+background-color:#d5d7b5;
+margin:0px; 
+margin-left:152px; 
+margin-right:102px; 
+}
+#rasporka{
+height:40px;
+}
+.clearFix:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+
+/* footer
+----------------------------------------------- */
+#footer{
+background-color:#d292bc;
+height:40px;
+margin-top:-40px;
+margin-bottom:0px;
+}
+
+.resetH{
+    font-size:0px;
+    line-height:0px;
+    letter-spacing:-1px;
+    height:0px;
+}
+.returnH{
+    font-size:1em;
+    font-size: 1rem;
+    line-height:normal;
+    letter-spacing:normal;
+}
+
